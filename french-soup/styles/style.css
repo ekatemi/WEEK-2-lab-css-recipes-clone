@@ -1,9 +1,137 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+
 }
 /*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Source+Sans+Pro:wght@200;300;400&display=swap');
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+main{
+  width: 100vw;
+  margin: auto;
+}
+
+.content{
+  width: 67vw;
+  margin: auto;
+}
+
+h1{
+  padding: 18% 12% 0 12%;
+  /* padding-top: 18.4%;
+  padding-left: 12%;
+  padding-right: 12%; */
+  text-align: center;
+  font-size: 3.8em;
+  font-weight: 400;
+  color: white;
+}
+
+#hero{
+  display: block;
+  background-image: url(../images/soup.jpg);
+ height: 860px;
+  background-position: 100% 95%;
+  background-size: cover;
+
+
+}
+
+#backstory{
+  padding: 60px 0;
+  font-size: 1.2em;
+}
+
+#preparation {
+  padding: 40px 0 40px 0;
+
+}
+
+h2{
+  font-weight: 300;
+}
+
+ul{
+  padding: 18px;
+  list-style: none;
+  line-height: 1.8em;
+  left: 0;
+  position: relative;
+  left: -17px;
+}
+#features{
+  text-align: center;
+  margin-top: 62px;
+}
+
+#features p{
+  display: inline;
+  margin-right: 12px;
+}
+
+#features p i{
+  margin-left: 12px;
+  font-size: 34px;
+  color: grey;
+}
+
+#directions{
+  padding-bottom: 60px;
+  clear: both;
+}
+
+#prep{
+  display: flex;
+  justify-content: center;
+}
+
+#prep .item{
+  border-right:1px solid grey;
+  padding-left: 52px;
+  line-height: 0.8em;
+  font-weight: bold;
+  color:grey;
+  text-align: left;
+  display: block;
+  padding-right: 42px;
+}
+
+ #prep .item p span{
+  color:black;
+  font-weight: lighter;
+  margin-right: 8px;
+
+}
+
+#prep .item-icon{
+  font-size: 88px;
+  color: grey;
+  float: left;
+  vertical-align: auto;
+  border-right:1px solid grey;
+  padding-right: 42px;
+  padding-left: 52px;
+}
+#prep .item-icon-last{
+  font-size: 88px;
+  color: grey;
+  float: left;
+  vertical-align: auto;
+  padding-left: 32px;
+}
+hr{
+  clear: both;
+}
+
+footer{
+  height: 28px;
+  background-color: black;
 }
